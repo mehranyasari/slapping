@@ -1,4 +1,4 @@
-const countDownDate = new Date("05/28/2023 11:30 AM").getTime();
+const countDownDate = new Date("05/25/2023 11:30 AM").getTime();
 // Update the count down every 1 second
 const x = setInterval(function () {
     // today's date and time

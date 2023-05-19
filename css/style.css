@@ -9,18 +9,16 @@
     padding: 0;
 }
 
-html,
-body {
-    height: 100%;
-    margin: 0;
-}
-
 body {
     align-items: center;
     background-color: #ffd54f;
     display: flex;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
         Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+
+    flex-direction: column-reverse;
+    justify-content: center;
+    height: 100vh;
 }
 
 .container {
@@ -66,4 +64,9 @@ li span {
     padding: 10px;
     font-size: 50px;
     color: red;
+}
+
+a {
+    color: rgb(25, 40, 66);
+    text-decoration: none;
 }
