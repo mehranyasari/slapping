@@ -12,3 +12,10 @@ body {
 #container {
     margin: 0 auto;
 }
+#countdown {
+    transition: rotate 3s;
+}
+
+#countdown:hover {
+    rotate: 360deg;
+}
