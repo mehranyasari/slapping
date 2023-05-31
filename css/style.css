@@ -19,3 +19,10 @@ body {
 #countdown:hover {
     rotate: 360deg;
 }
+
+@media screen and (max-width: 500px) {
+    #countdown {
+        flex-direction: column;
+        align-items: center;
+    }
+}
