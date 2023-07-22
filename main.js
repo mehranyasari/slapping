@@ -16,15 +16,9 @@ const x = setInterval(function () {
     const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     // Display the result
-    document.getElementById("countdown").innerHTML =
-        days +
-        "day " +
-        hours +
-        "hours " +
-        minutes +
-        "minutes " +
-        seconds +
-        "second ";
+    document.getElementById(
+        "countdown"
+    ).innerHTML = `${days}day ${hours}hours ${minutes}minutes ${seconds}second `;
     //  count down is finished, write something
     if (distance < 0) {
         clearInterval(x);
